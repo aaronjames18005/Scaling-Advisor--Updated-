@@ -1,41 +1,60 @@
-#Scaling Advisor
+# Scaling Advisor
+
 Personalized infrastructure scaling recommendations powered by AI and real-time metrics.
 
-✨ Features
-GitHub OAuth login via Convex Auth
-Responsive dashboard with Tailwind + shadcn/ui
-Full-stack type safety with Convex
-CI/CD, testing, and error monitoring ready
-🛠️ Tech Stack
-Frontend: React + Vite + TypeScript + Tailwind v4
-UI: shadcn/ui + Framer Motion
-Backend: Convex (database + auth + serverless)
-Routing: TanStack Router
-Testing: Vitest + React Testing Library
-CI: GitHub Actions
-Monitoring: Sentry
-🚀 Setup
-Clone repo
+## ✨ Features
+- GitHub OAuth login via Convex Auth
+- Responsive dashboard with Tailwind + shadcn/ui
+- Full-stack type safety with Convex
+- CI/CD, testing, and error monitoring ready
 
-git clone https://github.com/your-username/scaling-advisor.git
-cd scaling-advisor
-Install dependencies
+## 🛠️ Tech Stack
+- **Frontend**: React + Vite + TypeScript + Tailwind v4
+- **UI**: shadcn/ui + Framer Motion
+- **Backend**: Convex (database + auth + serverless)
+- **Routing**: TanStack Router
+- **Testing**: Vitest + React Testing Library
+- **CI**: GitHub Actions
+- **Monitoring**: Sentry
 
-pnpm install
-Set up environment
+## 🚀 Setup
 
-cp .env.example .env.local
-# Fill in values from Convex dashboard + GitHub OAuth
-Run dev server
+1. Clone repo
+   ```bash
+   git clone https://github.com/your-username/scaling-advisor.git
+   cd scaling-advisor
+   ```
 
-pnpm dev
-Build for production
+2. Install dependencies
+   ```bash
+   pnpm install
+   ```
 
-pnpm build
-🧪 Testing
+3. Set up environment
+   ```bash
+   cp .env.example .env.local
+   # Fill in values from Convex dashboard + GitHub OAuth
+   ```
+
+4. Run dev server
+   ```bash
+   pnpm dev
+   ```
+
+5. Build for production
+   ```bash
+   pnpm build
+   ```
+
+## 🧪 Testing
+```bash
 pnpm test          # watch mode
 pnpm test:ci       # single run
-📦 Deployment
-Frontend: Vercel / Netlify
-Backend: npx convex deploy
-See ARCHITECTURE.md for full system design.
+```
+
+## 📦 Deployment
+- Frontend: Vercel / Netlify
+- Backend: `npx convex deploy`
+
+> See `ARCHITECTURE.md` for full system design.
+
